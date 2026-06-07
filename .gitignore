@@ -20,3 +20,4 @@ node_modules/
 # SQLite leftovers
 *.db
 db/resort.db
+trading-bot/
