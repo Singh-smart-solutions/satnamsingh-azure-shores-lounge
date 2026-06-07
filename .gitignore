@@ -1,0 +1,22 @@
+# Next.js
+.next/
+out/
+
+# Dependencies
+node_modules/
+
+# Environment (NEVER commit secrets)
+.env
+.env.local
+.env.production
+.env*.local
+
+# OS
+.DS_Store
+
+# Vercel
+.vercel
+
+# SQLite leftovers
+*.db
+db/resort.db
