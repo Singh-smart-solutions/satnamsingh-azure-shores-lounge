@@ -155,7 +155,7 @@ export default function StaffTerminal() {
           <span className={`w-2 h-2 rounded-full ${isLive ? 'bg-emerald-500 animate-pulse' : 'bg-red-500'}`} />
           <div>
             <h1 className="font-serif text-lg text-gold tracking-widest uppercase font-semibold">
-              Azure Shores Concierge
+              Smart Lounge Concierge
             </h1>
             <p className="text-[10px] text-gray-500 uppercase tracking-widest font-medium mt-0.5">
               Service Dispatch Terminal

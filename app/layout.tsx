@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Azure Shores — Lounge',
+  title: 'Smart Lounge — Pool & Beach Service',
   description: 'Beach & Pool Lounge Service',
 }
 

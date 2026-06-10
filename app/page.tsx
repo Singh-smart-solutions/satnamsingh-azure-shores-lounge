@@ -243,7 +243,7 @@ export default function GuestPage() {
 
       // 4. Update Client State
       setSessionId(newSession.id)
-      triggerToast(`Welcome to Azure Shores, ${newSession.guest_name}`)
+      triggerToast(`Welcome to Smart Lounge, ${newSession.guest_name}`)
     } catch (err: any) {
       setAuthError(err.message || 'An error occurred during authentication.')
     } finally {
@@ -388,7 +388,7 @@ export default function GuestPage() {
 
         {/* Header */}
         <div className="text-center mt-12">
-          <p className="text-gold tracking-[0.25em] text-xs font-medium uppercase mb-3">Azure Shores Concierge</p>
+          <p className="text-gold tracking-[0.25em] text-xs font-medium uppercase mb-3">Smart Lounge Concierge</p>
           <h1 className="font-serif text-4xl md:text-5xl text-gold-light tracking-wide font-normal leading-tight">
             Select Your Sanctuary
           </h1>
@@ -520,7 +520,7 @@ export default function GuestPage() {
 
         {/* Footer */}
         <div className="text-center text-gray-600 text-[10px] tracking-wider uppercase mb-4">
-          Azure Shores Resort &amp; Spa © 2026
+          Smart Lounge Resort &amp; Spa © 2026
         </div>
       </div>
     )
